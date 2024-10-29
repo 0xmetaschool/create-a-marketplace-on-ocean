@@ -7,17 +7,17 @@ description: Step by step guide to customizing your fork of Ocean market
 
 So you’ve got a fully functioning data marketplace at this point, which is pretty cool. But it doesn’t really look like your data marketplace. Right now, it’s still just a clone of Ocean Market — the same branding, name, logo, etc. The next few steps focus on personalizing your data marketplace.
 
-* Change your Market Name
-* Change the Logo
-* Change the Styling
-* Edit the Publish Form
-* Advanced customization
+- Change your Market Name
+- Change the Logo
+- Change the Styling
+- Edit the Publish Form
+- Advanced customization
 
 ## Change your Market Name
 
 It’s now time to open up your favorite code editor and start getting stuck into the code. The first thing we will be doing is changing the name of your marketplace. A decent code editor (such as VS Code) makes this incredibly simple by searching and replacing all the places where the name appears.
 
-Let’s start by searching and replacing `Ocean Marketplace`. In VS Code there is a magnifying glass symbol in the left-hand panel (arrow 1 in the image below) that will open up the interface for searching and replacing text. Type “Ocean Marketplace” into the first textbox, and the name of your marketplace into the second textbox (arrow 2). To make things simple, there is a button to the right of the second textbox (arrow 3) that will replace all instances at once. You can take a moment to review all the text you’re changing if you wish, and then click this button.
+Let’s start by searching and replacing `Metaschool Marketplace`. In VS Code there is a magnifying glass symbol in the left-hand panel (arrow 1 in the image below) that will open up the interface for searching and replacing text. Type “Metaschool Marketplace” into the first textbox, and the name of your marketplace into the second textbox (arrow 2). To make things simple, there is a button to the right of the second textbox (arrow 3) that will replace all instances at once. You can take a moment to review all the text you’re changing if you wish, and then click this button.
 
 Next up, we need to repeat the process but this time we’ll be searching for and replacing `Ocean Market`.
 On line 3 in this file, you can enter the tagline that you want for your marketplace.
